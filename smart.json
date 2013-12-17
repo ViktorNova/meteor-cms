@@ -1,6 +1,6 @@
 {
   "name": "cms",
-  "description": "Easily add basic cms pages for your clients to edit at '/admin/cms' ",
+  "description": "Easily add basic cms pages for your clients to edit at admin/cms ",
   "homepage": "https://github.com/BeDifferential/meteor-cms",
   "author": "Differential (http://differential.io)",
   "version": "0.0.1",
