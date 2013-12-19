@@ -20,9 +20,9 @@ Package.on_use(function (api, where) {
   ], ['client', 'server']);
 
   api.add_files([
-    'client/views/comments/_cms.html',
-    'client/views/comments/_cms.coffee',
-    'client/views/comments/_cms.less',
+    'client/views/_cms.html',
+    'client/views/_cms.coffee',
+    'client/views/_cms.less',
     'client/router.coffee',
     'client/subscriptions.coffee'
   ], 'client');
