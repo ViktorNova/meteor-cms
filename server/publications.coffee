@@ -1,2 +1,2 @@
-Meteor.publish 'comments', ->
-  Comment.find
+Meteor.publish 'cms', ->
+  Cms.find
