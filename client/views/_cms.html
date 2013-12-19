@@ -1,0 +1,20 @@
+<template name="cmsAdmin">
+  <div id="blog-admin">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+            <ul class="blog-admin-sidebar">
+              {{#each pages}}
+              <li class=""><a href="/admin/blog">{{title}}</li>
+              {{/each}}
+              <li class=""><a href="/admin/blog/new"><i class="icon-plus"></i> New Page</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+          What goes here?
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
